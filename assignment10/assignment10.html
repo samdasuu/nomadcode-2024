@@ -4,20 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Page</title>
+    <link rel="stylesheet" href="assignment10.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="Page Page--first">
+    <div class="Page shade Page--first">
         <div class="block first__block--top-icon">
-            <!--gobackicon-->
-            <!--searchicon-->
+            <i class="top-icon fa-solid fa-arrow-left"></i>
+            <i class="top-icon fa-solid fa-magnifying-glass"></i>
         </div>
-        <div class="block first__block--artist-pic"></div>
-        <div class="block first__block--artist-profile"></div>
-        <div class="block first__block--midbuttons"></div>
-        <div class="block first__block--songs"></div>
-        <div class="block first__block--playbottons"></div>
+        <div class="block first__block--artist-pic">
+            <img class="winter shade" src="winter.jpeg">
+        </div>
+        <div class="block first__block--artist-profile">
+            <div class="my-font block first__block--artist-profile">Winter, asepa</div>
+            <div class="my-font block first__block--artist-profile">kpop</div>
+        </div>
+
+        <div class="block first__block--midbuttons">
+            <div class="shade midbuttons block shuffle">
+                <span class="my-font shuffle_1">shuffle</span>
+            </div>
+            <div class="block none-space"></div>
+            <div class="shade midbuttons block like">
+                <i class="fa-solid fa-heart"></i><span class="my-font like">212,011</span>
+            </div>
+
+        </div>
+        <div class="block first__block--songs">
+            <div class="block shade songs">
+                <div class="block songs__box1 img1"></div>
+                <div class="block songs__box2">
+                    <div class="my-font songs__box2__name">Winter, asepa</div>
+                    <div class="my-font songs__box2__song">whiplash</div>
+                </div>
+                <div class="block songs__box3"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <div class="block shade songs">
+                <div class="block songs__box1 img2"></div>
+                <div class="block songs__box2">
+                    <div class="my-font songs__box2__name">Winter, asepa</div>
+                    <div class="my-font songs__box2__song">spicy</div>
+                </div>
+                <div class="block songs__box3"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <div class="block shade songs">
+                <div class="block songs__box1 img3"></div>
+                <div class="block songs__box2">
+                    <div class="my-font songs__box2__name">Winter, asepa</div>
+                    <div class="my-font songs__box2__song">drama</div>
+                </div>
+                <div class="block songs__box3"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+            <div class="block shade songs">
+                <div class="block songs__box1 img4"></div>
+
+                <div class="block songs__box2">
+                    <div class="my-font songs__box2__name">Winter, asepa</div>
+                    <div class="my-font songs__box2__song">supernova</div>
+                </div>
+                
+                <div class="block songs__box3"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+        </div>
+
+
+        <div class="block first__block--playbottons">
+            <div class="block playbottons__shape">
+                <div class="block playbottons__name songs__box2">
+                    <div class="my-font songs__box2__name playbottons__name">Winter, asepa</div>
+                    <div class="my-font songs__box2__song playbottons__name">drama</div>
+                </div>
+                <div class="playbottons__icon block">
+                    <i class="last-icon fa-solid fa-arrow-left"></i>
+                    <i class="last-icon fa-solid fa-play"></i>
+                    <i class="last-icon fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="Page Page--second"></div>
+    <div class="Page shade Page--second">
+        <div class="my-font not-ready">not found</div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/4dc64089a7.js" crossorigin="anonymous"></script>
 </body>
 </html>
